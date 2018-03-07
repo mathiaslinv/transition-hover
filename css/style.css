@@ -1,0 +1,35 @@
+body{
+	background: #f2f2f2;
+	font-family: sans-serif;
+}
+
+img{
+	width: 200px;
+	transform: translateY(-250px);
+	transition: .3s;
+}
+p{
+	transform: translateY(100px);
+	transition: .3s;
+}
+.post{
+	border: 10px solid #e44d26;
+	background: white;
+	padding: 20px;
+	text-align: center;
+	transition: .2s;
+	overflow: hidden;
+}
+
+.post:hover{
+	background: #ead74e;
+}
+
+.post:hover img{
+	transform: translateY(0);
+}
+
+.post:hover p{
+	transform: translateY(0);
+	color: #e44d26;
+}
